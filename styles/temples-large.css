@@ -10,11 +10,11 @@
         align-items: center;
     }
 
-    .navigation {
+    .nav {
         flex-direction: row;
     }
 
-    .navigation a {
+    .nav a {
         display: block;
     }
 
