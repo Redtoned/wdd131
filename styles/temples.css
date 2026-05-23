@@ -9,8 +9,6 @@ body {
     background-color: #eaeaea;
 }
 
-/* HEADER */
-
 header {
     background-color: #4b0076;
     color: white;
@@ -20,8 +18,6 @@ header {
 header h2 {
     font-size: 2rem;
 }
-
-/* HAMBURGER BUTTON */
 
 #menu {
     font-size: 2rem;
@@ -41,8 +37,6 @@ header h2 {
 #menu.open::before {
     content: "✖";
 }
-
-/* NAVIGATION */
 
 .navigation {
     display: flex;
@@ -65,13 +59,9 @@ header h2 {
     transition: 0.3s;
 }
 
-/* OPEN CLASS */
-
 .open a {
     display: block;
 }
-
-/* MAIN */
 
 main {
     max-width: 1200px;
@@ -83,8 +73,6 @@ main h1 {
     text-align: center;
     margin: 2rem 0;
 }
-
-/* GALLERY GRID */
 
 .gallery {
     display: grid;
@@ -107,8 +95,6 @@ figcaption {
     color: #4b0076;
     font-size: 1.1rem;
 }
-
-/* FOOTER */
 
 footer {
     background-color: #4b0076;
