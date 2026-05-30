@@ -1,0 +1,116 @@
+:root {
+    --red: #fc3d32;
+    --green: #007e3a;
+    --white: #ffffff;
+    --dark: #222222;
+    --shadow: rgba(0, 0, 0, .2);
+
+    --heading-font: Arial, Helvetica, sans-serif;
+    --body-font: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+header {
+    background-color: var(--green);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: var(--heading-font);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    margin: .5rem 0;
+}
+
+.weather-icon {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+/* Desktop Layout */
+
+@media screen and (min-width: 768px) {
+
+    main {
+        position: relative;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        min-height: 600px;
+        object-fit: cover;
+    }
+
+    .data {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 280px;
+        background: rgba(255, 255, 255, .92);
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 280px;
+        background: rgba(255, 255, 255, .92);
+    }
+
+    /* Hide SVG icon on desktop */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Required pseudo-element icon */
+    .weather h2::after {
+        content: " ⛅";
+    }
+
+    .card h2 {
+        text-align: left;
+    }
+}

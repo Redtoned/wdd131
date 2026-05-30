@@ -7,11 +7,51 @@
     <title>Country Page Project - Texas</title>
     <meta name="description" content="A page showcasing Texas, the state I have live in the majority of my life.">
     <meta name="author" content="Caleb J. Erickson">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
 </head>
 
 <body>
+
+    <header>
+        <h1>Texas</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/madagascar-large.webp">
+
+                <img src="images/madagascar-small.webp" alt="Landscape view of Madagascar" width="1200" height="800">
+            </picture>
+        </section>
+
+        <section class="data card">
+            <h2>Data</h2>
+
+            <p><strong>Capital:</strong> Austin</p>
+            <p><strong>Population:</strong> 31.7 Million</p>
+            <p><strong>Area:</strong> 261,232 mi²</p>
+            <p><strong>Languages:</strong> English, Spanish</p>
+            <p><strong>Currency:</strong> US Dollar</p>
+            <p><strong>Time Zone:</strong> Central Time Zone (UTC-6)</p>
+        </section>
+
+        <section class="weather card">
+            <h2>Weather</h2>
+
+            <img class="weather-icon" src="images/weather.svg" alt="Partly cloudy weather icon" width="60" height="60">
+
+            <p><strong>Temperature:</strong> <span id="temperature">86</span> °F</p>
+            <p><strong>Wind:</strong> <span id="windspeed">7</span> mph</p>
+            <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Caleb J. Erickson - United States of America</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
 
 </body>
 
