@@ -1,6 +1,6 @@
 :root {
-    --red: #fc3d32;
-    --green: #007e3a;
+    --red: #BF0A30;
+    --blue: #00205B;
     --white: #ffffff;
     --dark: #222222;
     --shadow: rgba(0, 0, 0, .2);
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: var(--green);
+    background-color: var(--blue);
     color: white;
     text-align: center;
     padding: 1rem;
@@ -62,7 +62,7 @@ header h1 {
 
 footer {
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: var(--white);
     padding: 1rem;
     border-top: 1px solid #ccc;
 }
