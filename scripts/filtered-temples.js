@@ -19,7 +19,7 @@ const temples = [
         dedicated: "1998, June, 20",
         area: 34245,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/albuquerque-new-mexico-temple/albuquerque-new-mexico-temple-56335-main.jpg"
     },
     {
         templeName: "Arequipa Peru",
@@ -27,7 +27,7 @@ const temples = [
         dedicated: "2017, March, 4",
         area: 26969,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/arequipa-peru-temple/arequipa-peru-temple-7186-main.jpg"
     },
     {
         templeName: "Asunción Paraguay",
@@ -35,7 +35,7 @@ const temples = [
         dedicated: "2001, February, 3",
         area: 11906,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/asuncion-paraguay-temple/asuncion-paraguay-temple-6969-main.jpg"
     },
     {
         templeName: "Barranquilla Colombia",
@@ -43,7 +43,7 @@ const temples = [
         dedicated: "2016, February, 20",
         area: 25349,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/barranquilla-colombia-temple/barranquilla-colombia-temple-1846-main.jpg"
     },
     {
         templeName: "Bern Switzerland",
@@ -51,7 +51,7 @@ const temples = [
         dedicated: "1953, August, 5",
         area: 35546,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-54641-main.jpg"
     },
     {
         templeName: "Cedar City Utah",
@@ -59,7 +59,7 @@ const temples = [
         dedicated: "2015, August, 8",
         area: 42657,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/cedar-city-utah-temple/cedar-city-utah-temple-33347-main.jpg"
     },
     {
         templeName: "Provo City Center Utah",
@@ -67,7 +67,7 @@ const temples = [
         dedicated: "2012, May, 12",
         area: 85084,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/provo-city-center-temple/provo-city-center-temple-56386-main.jpg"
     },
     {
         templeName: "Rome Italy",
@@ -75,7 +75,7 @@ const temples = [
         dedicated: "2010, October, 23",
         area: 41010,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/400x250/rome-italy-temple-lds-273999-wallpaper.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
     },
     {
         templeName: "Washington D.C. United States",
@@ -84,6 +84,30 @@ const temples = [
         area: 156558,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+    },
+    {
+        templeName: "St. George Utah United States",
+        location: "St. George, Utah, United States",
+        dedicated: "1871, November, 9",
+        area: 143969,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/st.-george-utah-temple/st.-george-utah-temple-40435-main.jpg"
+    },
+    {
+        templeName: "Logan Utah United States",
+        location: "Logan, Utah, United States",
+        dedicated: "1877, May, 18",
+        area: 119619,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/logan-utah-temple/logan-utah-temple-40550-main.jpg"
+    },
+    {
+        templeName: "Cleveland Ohio United States",
+        location: "Cleveland, Ohio, United States",
+        dedicated: "2024, June, 1",
+        area: 9900,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/cleveland-ohio-temple/cleveland-ohio-temple-70035-main.jpg"
     },
 ];
 
