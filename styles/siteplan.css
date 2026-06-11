@@ -1,0 +1,41 @@
+/* Color Schema */
+
+
+h1,
+h2 {
+    font-family: 'Georgia', serif;
+    /* Headings font */
+}
+
+h1 {
+    color: #2a9d8f;
+    /* Primary heading color */
+}
+
+h2 {
+    color: #264653;
+    /* Secondary heading color */
+}
+
+p {
+    line-height: 1.6;
+}
+
+.accent {
+    color: #e76f51;
+    /* Accent color for highlights */
+}
+
+.wireframe {
+    border: 2px dashed #264653;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.scenario {
+    margin-bottom: 10px;
+}
