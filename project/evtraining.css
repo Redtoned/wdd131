@@ -1,0 +1,140 @@
+:root {
+    --primary: #2a9d8f;
+    --secondary: #264653;
+    --accent: #e76f51;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #e5e7eb;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #111827);
+    color: var(--text);
+}
+
+/* HEADER */
+header {
+    background: var(--secondary);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid var(--accent);
+}
+
+h1 {
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* NAV */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+/* MAIN LAYOUT */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CARD UI (Pokémon-style panels) */
+.card {
+    background: var(--card);
+    margin: 16px 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* SELECT + BUTTON */
+select,
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: var(--primary);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: var(--accent);
+}
+
+/* GRID FOR INPUTS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* POKEMON ROLE CSS RULES */
+#roleOutput {
+    background: rgba(42, 157, 143, 0.12);
+    border-left: 4px solid var(--primary);
+}
+
+#roleOutput ul {
+    margin-left: 20px;
+}
+
+select {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 8px;
+}
+
+form button {
+    margin-top: 12px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--secondary);
+    margin-top: 20px;
+}
+
+.highlight {
+    background: rgba(42, 157, 143, 0.15);
+    border-left: 4px solid var(--primary);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 6px 0;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

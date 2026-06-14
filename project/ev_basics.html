@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Basics</title>
+  <link rel="stylesheet" href="evtraining.css">
+  <script src="evtraining.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Understanding EVs</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ev-basics.html">What are EVs?</a>
+      <a href="training.html">Training Simulator</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="card">
+      <h2>What are Effort Values (EVs)?</h2>
+      <p>
+        Effort Values (EVs) are hidden training points that improve a Pokémon’s stats.
+        Every Pokémon you defeat or item you use can contribute EVs to specific stats,
+        shaping how your Pokémon performs in battle.
+      </p>
+    </section>
+
+    <!-- ALL 6 STATS -->
+    <section class="card">
+      <h2>All EV Stat Categories</h2>
+
+      <ul>
+        <li><strong>HP:</strong> Increases overall durability and survivability</li>
+        <li><strong>Attack:</strong> Improves physical move damage</li>
+        <li><strong>Defense:</strong> Reduces damage from physical attacks</li>
+        <li><strong>Special Attack:</strong> Increases special move power</li>
+        <li><strong>Special Defense:</strong> Reduces damage from special attacks</li>
+        <li><strong>Speed:</strong> Determines turn order in battle</li>
+      </ul>
+    </section>
+
+    <!-- HOW EV INVESTMENT WORKS -->
+    <section class="card">
+      <h2>How EV Investment Works</h2>
+
+      <p>
+        Each Pokémon can earn a total of <strong>510 EV points</strong>, with a maximum of
+        <strong>252 EVs per stat</strong>. Every 4 EVs equals roughly +1 point in that stat.
+      </p>
+
+      <p>
+        This means you must choose carefully where to invest your EVs depending on your strategy.
+      </p>
+
+      <div class="highlight">
+        <p><strong>Example Strategy:</strong></p>
+        <p>A fast attacker might use:</p>
+        <ul>
+          <li>252 Speed EVs</li>
+          <li>252 Attack EVs</li>
+          <li>4 HP EVs</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- STRATEGIC EXPLANATION -->
+    <section class="card">
+      <h2>Why EVs Matter</h2>
+
+      <p>
+        EV training allows two identical Pokémon to perform completely differently in battle.
+        A properly trained Pokémon can outspeed opponents, survive hits, or deal significantly more damage.
+      </p>
+
+      <p>
+        Competitive players use EVs to specialize Pokémon roles such as sweepers, tanks, or support units.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>EV Role Recommendation Tool</h2>
+
+      <form id="roleForm">
+        <label for="roleSelect">Choose a Battle Role:</label>
+        <select id="roleSelect" required>
+          <option value="">-- Select a Role --</option>
+          <option value="physical">Physical Attacker</option>
+          <option value="special">Special Attacker</option>
+          <option value="wall">Defensive Wall</option>
+          <option value="spwall">Special Defensive Wall</option>
+        </select>
+
+        <button type="submit">Get Recommendation</button>
+      </form>
+
+      <div id="roleOutput" class="card" style="margin-top: 15px;"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Pokémon EV Training Guide</p>
+  </footer>
+
+</body>
+
+</html>

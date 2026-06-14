@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Training Simulator</title>
+    <link rel="stylesheet" href="evtraining.css">
+    <script src="evtraining.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>EV Training Simulator</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ev-basics.html">What are EVs?</a>
+            <a href="training.html">Training Simulator</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- BASE STATS -->
+        <section class="card">
+            <h2>Base Pokémon Stats</h2>
+
+            <div class="grid">
+                <label>HP <input type="number" id="baseHP" value="50"></label>
+                <label>Attack <input type="number" id="baseATK" value="50"></label>
+                <label>Defense <input type="number" id="baseDEF" value="50"></label>
+                <label>Sp. Attack <input type="number" id="baseSPA" value="50"></label>
+                <label>Sp. Defense <input type="number" id="baseSPD" value="50"></label>
+                <label>Speed <input type="number" id="baseSPE" value="50"></label>
+            </div>
+        </section>
+
+        <!-- EV INPUTS -->
+        <section class="card">
+            <h2>EV Distribution</h2>
+
+            <div class="grid">
+                <label>HP EV <input type="number" id="evHP" value="0"></label>
+                <label>Attack EV <input type="number" id="evATK" value="0"></label>
+                <label>Defense EV <input type="number" id="evDEF" value="0"></label>
+                <label>Sp. Attack EV <input type="number" id="evSPA" value="0"></label>
+                <label>Sp. Defense EV <input type="number" id="evSPD" value="0"></label>
+                <label>Speed EV <input type="number" id="evSPE" value="0"></label>
+            </div>
+
+            <button id="calcBtn">Calculate Stat Changes</button>
+
+            <p id="evTotal">Total EVs: 0 / 510</p>
+            <p id="warning"></p>
+        </section>
+
+        <!-- OUTPUT -->
+        <section class="card">
+            <h2>Final Stats</h2>
+            <div id="results"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Pokémon EV Stat Simulator</p>
+    </footer>
+
+</body>
+
+</html>
