@@ -1,10 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const lastModifiedElement = document.getElementById("lastModified");
+const year = document.querySelector("#currentyear");
+const lastModified = document.querySelector("#lastModified");
 
-    if (lastModifiedElement) {
-        lastModifiedElement.textContent = document.lastModified;
-    }
-});
+year.textContent = new Date().getFullYear();
+lastModified.textContent = `Last Modification: ${document.lastModified}`;
 
 const products = [
     { id: "fc-1888", name: "flux capacitor", averagerating: 4.5 },
@@ -14,18 +12,11 @@ const products = [
     { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
 ];
 
-// Populate dropdown
 const select = document.getElementById("product");
 
 products.forEach(product => {
     const option = document.createElement("option");
-    option.value = product.id; // use id as value
+    option.value = product.id;
     option.textContent = product.name;
     select.appendChild(option);
 });
-
-// Footer date
-document.getElementById("lastModified").textContent = document.lastModified;
-
-// Current year
-document.getElementById("currentyear").textContent = new Date().getFullYear();
