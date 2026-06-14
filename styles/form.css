@@ -43,6 +43,14 @@ fieldset {
     padding: 10px;
 }
 
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
 input[type="submit"] {
     background: #0a0f45;
     color: white;

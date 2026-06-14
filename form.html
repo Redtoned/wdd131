@@ -24,30 +24,48 @@
 
     <main>
         <form method="get" action="review.html" id="reviewForm">
+            <label for="reviewDate">Review Date</label>
+            <input type="date" id="reviewDate" name="reviewDate" required>
             <label for="product">Product Name</label>
 
             <select id="product" name="product" required>
                 <option value="" disabled selected>Select a Product ...</option>
             </select>
 
-            <fieldset>
+            <fieldset class="rating">
                 <legend>Overall Rating</legend>
 
-                <label><input type="radio" id="r1" name="rating" value="1" required> ☆</label>
-                <label><input type="radio" id="r2" name="rating" value="2" required> ☆☆</label>
-                <label><input type="radio" id="r3" name="rating" value="3" required> ☆☆☆</label>
-                <label><input type="radio" id="r4" name="rating" value="4" required> ☆☆☆☆</label>
-                <label><input type="radio" id="r5" name="rating" value="5" required> ☆☆☆☆☆</label>
+                <input type="radio" id="r1" name="rating" value="1" required>
+                <label for="r1">☆</label>
+
+                <input type="radio" id="r2" name="rating" value="2" required>
+                <label for="r2">☆☆</label>
+
+                <input type="radio" id="r3" name="rating" value="3" required>
+                <label for="r3">☆☆☆</label>
+
+                <input type="radio" id="r4" name="rating" value="4" required>
+                <label for="r4">☆☆☆☆</label>
+
+                <input type="radio" id="r5" name="rating" value="5" required>
+                <label for="r5">☆☆☆☆☆</label>
             </fieldset>
+
 
             <fieldset>
                 <legend>Useful Features</legend>
 
-                <label><input type="checkbox" id="durability" name="features" value="durability"> Durability</label>
-                <label><input type="checkbox" id="ease" name="features" value="ease"> Ease of Use</label>
-                <label><input type="checkbox" id="performance" name="features" value="performance"> Performance</label>
-                <label><input type="checkbox" id="design" name="features" value="design"> Design</label>
+                <input type="checkbox" id="durability" name="features" value="durability">
+                <label for="durability">Durability</label>
 
+                <input type="checkbox" id="ease" name="features" value="ease">
+                <label for="ease">Ease of Use</label>
+
+                <input type="checkbox" id="performance" name="features" value="performance">
+                <label for="performance">Performance</label>
+
+                <input type="checkbox" id="design" name="features" value="design">
+                <label for="design">Design</label>
             </fieldset>
 
             <label for="review">Written Review (Optional)</label>
