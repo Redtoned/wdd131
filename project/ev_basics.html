@@ -23,27 +23,22 @@
 
   <main>
 
-    <!-- BRIEF INTRODUCTION -->
-    <section class="card">
-      <h2>What are Effort Values (EVs)?</h2>
-      <p>
-        Effort Values (EVs) are hidden training points that improve a Pokémon’s stats.
-        Every Pokémon you defeat or item you use can contribute EVs to specific stats,
-        shaping how your Pokémon performs in battle.
-      </p>
-    </section>
-
     <!-- 6 EV CATEGORIES -->
     <section class="card">
       <h2>All EV Stat Categories</h2>
 
       <ul>
-        <li><strong>HP:</strong> Increases overall durability and survivability</li>
-        <li><strong>Attack:</strong> Improves physical move damage</li>
-        <li><strong>Defense:</strong> Reduces damage from physical attacks</li>
-        <li><strong>Special Attack:</strong> Increases special move power</li>
-        <li><strong>Special Defense:</strong> Reduces damage from special attacks</li>
-        <li><strong>Speed:</strong> Determines turn order in battle</li>
+        <li><strong>HP:</strong> Hit Point (HP) EVs increase the Pokémon's maximum HP. This leads to increased
+          survivability in
+          battle only when it comes to taking damage.</li>
+        <li><strong>Attack:</strong> Attack EVs improve the power of physical moves.</li>
+        <li><strong>Defense:</strong> Defense EVs reduce damage from physical attacks which help the Pokémon survive
+          physical attacks, and can lead to increased durability when paired with HP EVs.</li>
+        <li><strong>Special Attack:</strong> Special attack EVs increase the power of special moves.</li>
+        <li><strong>Special Defense:</strong> Special defense EVs reduce damage from special attacks which help the
+          Pokémon survive special attacks, and can lead to increased durability when paired with HP EVs.</li>
+        <li><strong>Speed:</strong> Speed EVs increase the Pokémon's speed, which when going against another Pokémon if
+          your speed stat is higher, allows you to move first in battle most of the time.</li>
       </ul>
     </section>
 
@@ -53,20 +48,32 @@
 
       <p>
         Each Pokémon can earn a total of <strong>510 EV points</strong>, with a maximum of
-        <strong>252 EVs per stat</strong>. Every 4 EVs equals roughly +1 point in that stat.
+        <strong>252 EVs per stat</strong>. Every 8 EVs equals roughly +1 point in that stat at level 50, whereas every 4
+        EVs equals roughly +1 point at level 100. Due to the nature of EVs being rounded down however, at Level 50, the
+        first 4 EVs in a stat will give a +1 to the stat.
       </p>
 
       <p>
-        This means you must choose carefully where to invest your EVs depending on your strategy.
+        Due to the limited amount of EVs available, you must choose carefully where to invest your EVs depending on your
+        strategy for a given Pokémon. For example, a physical attacker might focus on Attack and Speed EVs allowing it
+        to deal more physical damage and potentially out speed opponents, while a defensive Pokémon might prioritize HP
+        and Defense or Special Defense EVs allowing it to survive attacks more effectively.
       </p>
 
       <div class="highlight">
-        <p><strong>Example Strategy:</strong></p>
+        <p><strong>Example Strategies:</strong></p>
         <p>A fast attacker might use:</p>
         <ul>
-          <li>252 Speed EVs</li>
-          <li>252 Attack EVs</li>
           <li>4 HP EVs</li>
+          <li>252 Attack/Special Attack EVs</li>
+          <li>252 Speed EVs</li>
+        </ul>
+
+        <p>A bulky tank might use:</p>
+        <ul>
+          <li>252 HP EVs</li>
+          <li>252 Defense/Special Defense EVs</li>
+          <li>4 Speed EVs</li>
         </ul>
       </div>
     </section>
@@ -81,12 +88,14 @@
       </p>
 
       <p>
-        Competitive players use EVs to specialize Pokémon roles such as sweepers, tanks, or support units.
+        Competitive players use EVs to specialize Pokémon roles such as sweepers, tanks, or support units. They often
+        time choose to EV train Pokémon to counteract specific threats or playstyles in order to be able to take be able
+        to have ways of dealing with unfavorable matchups, or to improve their strengths.
       </p>
     </section>
 
     <section class="card">
-      <h2>EV Role Recommendation Tool</h2>
+      <h2>Basic EV Role Recommendation Tool</h2>
 
       <form id="roleForm">
         <label for="roleSelect">Choose a Battle Role:</label>

@@ -21,10 +21,11 @@ const roleAdvice = {
         description:
             "Physical attackers rely on high Attack and Speed to hit first and hit hard.",
         tips: [
+            "Look for high Attack base stat Pokémon",
             "Invest 252 EVs in Attack",
             "Invest 252 EVs in Speed",
-            "Use Nature that boosts Attack or Speed",
-            "Look for high Attack base stat Pokémon"
+            "Consider putting the last 4 EVs in either HP, Defense, or Special Defense",
+            "Use a Nature that boosts Attack or Speed while decreasing stats that aren't beneficial"
         ]
     },
 
@@ -34,10 +35,11 @@ const roleAdvice = {
         description:
             "Special attackers use special moves and benefit from Speed control.",
         tips: [
+            "Look for high Special Attack base stat Pokémon",
             "Invest 252 EVs in Special Attack",
             "Invest 252 EVs in Speed",
-            "Look for high Special Attack base stat Pokémon",
-            "Consider moves with high base power or coverage"
+            "Consider putting the last 4 EVs in either HP, Defense, or Special Defense",
+            "Use a Nature that boosts Special Attack or Speed while decreasing stats that aren't beneficial"
         ]
     },
 
@@ -45,12 +47,13 @@ const roleAdvice = {
         title: "Defensive Wall",
         stats: ["HP", "Defense"],
         description:
-            "Physical walls absorb physical hits and outlast opponents.",
+            "Physical walls absorb physical hits and outlast opponents that use physical moves.",
         tips: [
+            "Look for high HP and Defense base stats",
             "Invest 252 EVs in HP",
             "Invest 252 EVs in Defense",
-            "Look for high HP and Defense base stats",
-            "Use recovery or sustain moves"
+            "Consider putting the last 4 EVs in either Attack, or Special Attack",
+            "Use a Nature that boosts HP or Defense while decreasing stats that aren't beneficial to the Pokémon"
         ]
     },
 
@@ -58,12 +61,13 @@ const roleAdvice = {
         title: "Special Defensive Wall",
         stats: ["HP", "Special Defense"],
         description:
-            "Special walls handle special attackers and sustain long battles.",
+            "Special walls handle special attackers and outlast opponents that use special moves.",
         tips: [
+            "Look for high HP and Special Defense stats",
             "Invest 252 EVs in HP",
             "Invest 252 EVs in Special Defense",
-            "Look for high HP and Special Defense stats",
-            "Use status or healing support moves"
+            "Consider putting the last 4 EVs in either Attack, or Special Attack",
+            "Use a Nature that boosts HP or Special Defense while decreasing stats that aren't beneficial to the Pokémon"
         ]
     }
 };
